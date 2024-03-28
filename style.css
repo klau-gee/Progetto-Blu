@@ -1,0 +1,333 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --blu : #1566C0;
+    --grey: #6C757E;
+}
+
+.text-blu{
+    color: var(--blu);
+}
+
+.text-grey{
+    color: var(--grey);
+}
+
+body{
+    margin: 0px !important;
+    overflow-x: hidden;
+}
+
+.font-secondary{
+    font-family: 'Righteous', sans-serif;;
+}
+
+.backgroundHeader{
+    background: url(./media/wave2.svg), url(./media/wave1.svg), linear-gradient(rgba(2, 2, 19, 0.945), rgba(189, 199, 200, 0.2)), url(./media/header.jpg);
+    background-position: bottom, 0% 95%, center, center;
+    background-repeat: no-repeat;
+    background-size: 100% , 100%, cover, 100% 100vh;
+    padding: 0%;
+    height: 100vh;
+    background-position-y: 100%, 95%; 
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+}
+
+.p-h1{
+    color: white;
+}
+
+.header_text{
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.button-size{
+    border: none;
+    padding: 12px 48px;
+    border-radius: 0px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+/* main */
+.img-bck-card1{
+    background: linear-gradient(rgba(0, 0, 0, 0.958), rgba(0, 0, 0, 0.525),rgba(0, 0, 0, 0.945)), url(./media/1.png);
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+}
+
+.img-bck-card2{
+    background:  linear-gradient(rgba(0, 0, 0, 0.958), rgba(0, 0, 0, 0.525),rgba(0, 0, 0, 0.945)), url(./media/2.png);
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+}
+
+.img-bck-card3{
+    background: linear-gradient(rgba(0, 0, 0, 0.958), rgba(0, 0, 0, 0.525),rgba(0, 0, 0, 0.945)), url(./media/3.png);
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+}
+
+.img-bck-card4{
+    background: linear-gradient(rgba(0, 0, 0, 0.958), rgba(0, 0, 0, 0.525),rgba(0, 0, 0, 0.945)), url(./media/4.png);
+    width: 250px;
+    height: 300px;
+    background-size: cover; 
+}
+
+.p-card{
+    font-size: 12px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin: 0;
+}
+
+.i-card{
+    font-weight: light;
+    font-size: 25px;
+}
+
+.underLine-card{
+    width: 220px;
+    border-bottom: solid 3px #FFC007;
+    position: relative;
+}
+
+/* prima section */
+.card-first-section{
+    height: 180px;
+    width: 420px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+}
+
+.p-first-section{
+    font-size: 16px;
+    text-align: start;
+    color: #6C757E;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.smallCard-firstSec{
+    height: 70px;
+    width: 70px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-rotate{
+    transform: rotate(270deg);
+}
+
+.mt-card{
+    margin-top: 40px;
+}
+
+/* seconda section */
+.mar-second-section{
+    margin-top: 140px;
+}
+
+.box-second-section1{
+    width: 200px;
+    height: 160px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+}
+
+.box-second-section2{
+    width: 190px;
+    height: 140px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+}
+
+.box-second-section3{
+    width: 250px;
+    height: 160px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+}
+
+.box-second-section4{
+    width: 290px;
+    height: 140px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+}
+
+.i-box{
+    font-size: 25px;
+}
+
+/* terza section */
+.mar-third-section{
+    margin-top: 90px;
+}
+
+.box-third-section1{
+    width: 250px;
+    height: 160px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+}
+
+.box-third-section2{
+    width: 290px;
+    height: 140px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+}
+
+.box-third-section3{
+    width: 250px;
+    height: 160px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+}
+
+.box-third-section4{
+    width: 250px;
+    height: 180px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+}
+
+/* sezione con card circolare */
+.mar-circle-section{
+    margin-top: 90px;
+}
+
+.box-circle-section{
+    height: 200px;
+    width: 450px;
+    border: solid 1px #ffffff;
+    border-radius: 15px;
+}
+
+.img-circle{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    border: 3px solid #1566C0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-img-circle{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    border: 0px;
+    background-image: url(https://picsum.photos/280);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* timeline section */
+.list-style{
+    list-style-type: none;
+}
+
+.time-Line{
+    border-left: solid 3px #1566C0;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+}
+
+.time-Line::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    right: -13px;
+    top: 0px;
+    border: solid 3px #1566C0;
+    margin: 0;
+    padding: 0;
+}
+
+.height-timeLine{
+    height: 200px;
+    /* width: 0px !important; */
+}
+
+.btn-custom{
+    width: 180px !important;
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 28px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+/* footer */
+.img-footer{
+    background:linear-gradient(rgba(255, 255, 255, 0.992), rgba(0, 0, 0, 0.51),rgba(0, 0, 0, 0.738)), url(./media/footer.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: bottom, 0% 95%, center, center;
+}
+
+.mrgn-footer{
+    margin-top: 400px;
+    padding-bottom: 50px;
+}
+
+.font-footer{
+    font-size: 12px;
+}
+
+/* media query mobile */
+@media screen and (max-width: 600px){
+    .box-third-section1{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .box-third-section3{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .box-third-section4{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .box-second-section1{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .btn{
+        margin-left: 60px;
+    }
+}
